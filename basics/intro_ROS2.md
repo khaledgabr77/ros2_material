@@ -2018,7 +2018,7 @@ qos_profile = QoSProfile(lifespan=Duration(0.01))
 
 ### 3.6 Liveliness
 
-The **Liveliness QoS** policy in ROS 2 is used to ensure that a publisher is actively alive and functioning. This policy helps subscribers know whether a publisher is still operating, even if the publisher has not sent any new messages for a certain amount of time. By monitoring the "liveliness" of a publisher, subscribers can take appropriate action if the publisher goes inactive, which can be critical in time-sensitive or mission-critical applications.
+The **Liveliness QoS** policy in ROS 2 is used to ensure that a publisher is actively alive and functioning. This policy helps subscribers know whether a publisher is still operating, even if the publisher has not sent any new messages for a certain amount of time. By monitoring the `liveliness` of a publisher, subscribers can take appropriate action if the publisher goes inactive, which can be critical in time-sensitive or mission-critical applications.
 
 Let’s dive deeper into how the **Liveliness QoS** works and why it is essential in ROS 2-based systems, particularly in distributed robotics and real-time applications.
 
